@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Back to Menu -->
+    <a href="index.html" class="back-button">
+      <img src="images/back.png" alt="Back" />
+    </a>
+
+    <h1>Tic Tac Toe</h1>
+
+    <!-- Mode Selector -->
+    <div class="mode-selector">
+      <label>
+        <input type="radio" name="mode" value="pvp" checked>
+        Player vs Player
+      </label>
+      <label>
+        <input type="radio" name="mode" value="pvc">
+        Player vs Computer
+      </label>
+    </div>
+
+    <div id="board" class="board"></div>
+
+    <h2 id="statusText">Player X's Turn</h2>
+    <button id="restart">Restart</button>
+  </div>
+
+  <script src="tictactoe.js"></script>
+</body>
+</html>

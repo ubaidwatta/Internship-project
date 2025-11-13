@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Back to Home -->
+    <a href="index.html" class="back-button">
+      <img src="images/back.png" alt="Back" />
+    </a>
+
+    <h1>Rock Paper Scissors</h1>
+
+    <!-- Game Options -->
+    <div class="choices">
+      <img src="images/rock.png" alt="Rock" class="choice" data-choice="rock" />
+      <img src="images/paper.png" alt="Paper" class="choice" data-choice="paper" />
+      <img src="images/scissors.png" alt="Scissors" class="choice" data-choice="scissors" />
+    </div>
+
+    <!-- Player and Computer Display -->
+    <div class="result">
+      <div class="side">
+        <p>You:</p>
+        <img id="player-icon" class="icon" src="images/question.png" alt="Player choice" />
+      </div>
+      <div class="side">
+        <p>Computer:</p>
+        <img id="computer-icon" class="icon" src="images/question.png" alt="Computer choice" />
+      </div>
+    </div>
+
+    <!-- Winner Message -->
+    <h2 id="winner"></h2>
+
+    <!-- Restart Button -->
+    <button id="restartBtn">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
