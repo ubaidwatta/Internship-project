@@ -1,2 +1,3 @@
 # Internship-project
-game hub
+Mini Game Hub – Rock Paper Scissors, Tic Tac Toe & Number Guessing Game
+The Mini Game Hub is a web-based project developed using HTML, CSS, and JavaScript, featuring three interactive mini-games — Rock Paper Scissors, Tic Tac Toe, and Number Guessing. The project offers a clean, responsive interface that allows users to switch between games seamlessly. Rock Paper Scissors lets users play against the computer with animated choices and delayed results, while Tic Tac Toe supports both Player vs Player and Player vs Computer modes. The Number Guessing Game adds an engaging challenge with delayed feedback and visual icons for interaction. Designed with modular code and a consistent aesthetic, the project demonstrates core front-end concepts like DOM manipulation, event handling, and responsive design, and is fully deployable online via Netlify
